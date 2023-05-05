@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+/*전체화면 배경색*/
+
+.top-bar{
+  align-items:left;
+
+}
+
+.menu-bar {
+  background: #0066FF;
+  color: white;
+  width: 150px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+  z-index: 10;
+}
+
+
+.menu-bar div {
+  text-align:left;
+  margin: 12px 0px 0px -5px;
+}
+
+.menu-bar div:hover {
+  cursor: pointer;
+  color: black;
+  transition: all 0.5s;
+}
+
+.menu-bar i {
+  margin-right:5px;
+  font-size: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
